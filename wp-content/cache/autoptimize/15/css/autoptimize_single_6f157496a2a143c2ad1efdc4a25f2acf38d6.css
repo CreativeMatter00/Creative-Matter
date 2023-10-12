@@ -2364,7 +2364,7 @@ form label.error {
 	margin-right: 0;
 }
 .page-title .bread-crumb ul li:after {
-	content: "\f105";
+	/* content: "\f105";
 	position: absolute;
 	right: -26px;
 	top: 6px;
@@ -2373,7 +2373,7 @@ form label.error {
 	font-weight: 400;
 	font-size: 14px;
 	color: #d8f744;
-	font-family: "Font Awesome 6 Pro";
+	font-family: "Font Awesome 6 Pro"; */
 }
 .page-title .bread-crumb ul li:last-child:after {
 	display: none;
