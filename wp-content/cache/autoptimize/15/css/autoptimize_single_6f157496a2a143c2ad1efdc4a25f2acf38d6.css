@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
 @font-face {
 	font-family: "Gotham_Book";
 	src: url(../../../../themes/vosio/assets/fonts/Gotham-Book.eot);
@@ -83,7 +87,7 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: "Monument_Extended_Regular";
+	font-family: "Questrial";
 	src: url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/MonumentExtended-Regular.eot);
 	src: url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/MonumentExtended-Regular.eot?#iefix)
 			format("embedded-opentype"),
@@ -91,7 +95,7 @@
 			format("woff"),
 		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/MonumentExtended-Regular.ttf)
 			format("truetype"),
-		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/MonumentExtended-Regular.svg#Monument_Extended_Regular)
+		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/MonumentExtended-Regular.svg#Questrial)
 			format("svg");
 	font-weight: 400;
 	font-style: normal;
@@ -111,7 +115,7 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: "Telegraf_UltraLight";
+	font-family: "Questrial";
 	src: url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraLight.eot);
 	src: url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraLight.eot?#iefix)
 			format("embedded-opentype"),
@@ -119,13 +123,13 @@
 			format("woff"),
 		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraLight.ttf)
 			format("truetype"),
-		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraLight.svg#Telegraf_UltraLight)
+		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraLight.svg#Questrial)
 			format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
-	font-family: "Telegraf_Regular";
+	font-family: "Questrial";
 	src: url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-Regular.eot);
 	src: url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-Regular.eot?#iefix)
 			format("embedded-opentype"),
@@ -133,13 +137,13 @@
 			format("woff"),
 		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-Regular.ttf)
 			format("truetype"),
-		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-Regular.svg#Telegraf_Regular)
+		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-Regular.svg#Questrial)
 			format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
-	font-family: "Telegraf_UltraBold";
+	font-family: "Questrial";
 	src: url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraBold.eot);
 	src: url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraBold.eot?#iefix)
 			format("embedded-opentype"),
@@ -147,11 +151,12 @@
 			format("woff"),
 		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraBold.ttf)
 			format("truetype"),
-		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraBold.svg#Telegraf_UltraBold)
+		url(//fabric-lab.co/vosio/wp-content/themes/vosio/assets/css/../fonts/Telegraf-UltraBold.svg#Questrial)
 			format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -159,7 +164,7 @@
 	outline: none;
 }
 body {
-	font-family: "Cairo", sans-serif;
+	font-family: "Quicksand", sans-serif;
 	font-size: 16px;
 	color: #fff;
 	line-height: 1.6em;
@@ -197,7 +202,7 @@ h4,
 h5,
 h6 {
 	position: relative;
-	font-family: "Cairo", sans-serif;
+	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
 	margin: 0 0 15px;
 	background: 0 0;
@@ -234,7 +239,7 @@ input,
 button,
 select,
 textarea {
-	font-family: "Cairo", sans-serif;
+	font-family: "Quicksand", sans-serif;
 }
 textarea {
 	overflow: hidden;
@@ -362,7 +367,7 @@ p {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin: 0;
 	line-height: 26px;
 	padding: 16px 30px 14px;
@@ -544,7 +549,7 @@ form .form-group .field-label {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 20px;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	text-transform: none;
 	margin-bottom: 0;
 }
@@ -577,7 +582,7 @@ form .form-group select {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 20px;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 500;
 	padding: 5px 0;
 	background: 0 0;
@@ -762,7 +767,7 @@ form label.error {
 	height: 54px;
 	padding: 11px 20px;
 	line-height: 30px;
-	font-family: "Cairo", sans-serif;
+	font-family: "Quicksand", sans-serif;
 	color: #585f5f;
 	border-radius: 0;
 	background-color: #fff;
@@ -800,7 +805,7 @@ form label.error {
 .ui-widget.ui-widget-content {
 	border: 1px solid #d8f744;
 	border-top: none;
-	font-family: "Cairo", sans-serif;
+	font-family: "Quicksand", sans-serif;
 	border-radius: 0;
 	padding: 0;
 }
@@ -1111,7 +1116,7 @@ form label.error {
 	position: relative;
 	left: 0;
 	top: 0;
-	font-family: "Cairo", sans-serif;
+	font-family: "Quicksand", sans-serif;
 	display: block;
 }
 .main-nav-outer .main-nav-box .main-nav .navigation > li {
@@ -1392,7 +1397,7 @@ form label.error {
 	width: 140px;
 	height: 100px;
 	padding: 20px;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 48px;
 	line-height: 60px;
@@ -1447,7 +1452,7 @@ form label.error {
 }
 .banner-section .slide-item h1 {
 	position: relative;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 62px;
 	color: #fff;
@@ -1458,7 +1463,7 @@ form label.error {
 .banner-section .slide-item .text {
 	position: relative;
 	display: block;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 24px;
 	line-height: 1.6em;
 	padding-top: 5px;
@@ -1561,7 +1566,7 @@ form label.error {
 	width: 140px;
 	height: 100px;
 	padding: 20px;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 48px;
 	line-height: 60px;
@@ -1614,7 +1619,7 @@ form label.error {
 }
 .banner-two .slide-item h2 {
 	position: relative;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 54px;
 	color: #fff;
@@ -1710,7 +1715,7 @@ form label.error {
 .def-title-box .subtitle {
 	position: relative;
 	font-size: 14px;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	letter-spacing: 4px;
 	color: rgba(255, 255, 255, 0.35);
 	margin: 7px 0 3px;
@@ -1718,7 +1723,7 @@ form label.error {
 .def-title-box h3 {
 	position: relative;
 	font-size: 30px;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	color: rgba(255, 255, 255, 1);
 	margin: 0;
 }
@@ -1779,7 +1784,7 @@ form label.error {
 .service-block h5 {
 	position: relative;
 	font-size: 18px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	color: rgba(255, 255, 255, 1);
 	margin: 0;
 }
@@ -1977,7 +1982,7 @@ form label.error {
 	top: 0;
 	width: 100%;
 	text-align: center;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	-webkit-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -2059,7 +2064,7 @@ form label.error {
 	line-height: 30px;
 	text-align: center;
 	background: #15181b;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	border-radius: 0 0 20px 20px;
 	z-index: 3;
 }
@@ -2342,7 +2347,7 @@ form label.error {
 }
 .page-title h1 {
 	position: relative;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	text-transform: none;
 	margin: 0;
 }
@@ -2429,14 +2434,14 @@ form label.error {
 	position: relative;
 	font-size: 18px;
 	line-height: 28px;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 5px;
 }
 .contact-section .info-box .info-block .info {
 	position: relative;
 	font-size: 14px;
 	color: #666;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	line-height: 20px;
 }
 .contact-section .info-box .info-block .info a {
@@ -2448,7 +2453,7 @@ form label.error {
 }
 .contact-section .form-col h5 {
 	position: relative;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-top: 25px;
 	margin-bottom: 20px;
 }
@@ -2561,7 +2566,7 @@ form label.error {
 	width: 120px;
 	height: 120px;
 	padding: 30px 20px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 48px;
 	color: #292c30;
@@ -2615,7 +2620,7 @@ form label.error {
 }
 .banner-three .slide-item h3 {
 	position: relative;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 28px;
 	color: #fff;
@@ -2745,7 +2750,7 @@ form label.error {
 .portfolio-item-one h5 {
 	position: relative;
 	font-size: 18px;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 0;
 }
 .portfolio-item-one h5 a {
@@ -2754,7 +2759,7 @@ form label.error {
 .portfolio-item-one .cat {
 	position: relative;
 	display: block;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 1.5em;
@@ -2825,7 +2830,7 @@ form label.error {
 .news-block h4 {
 	position: relative;
 	font-size: 20px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 10px;
 }
 .news-block h4 a {
@@ -2836,7 +2841,7 @@ form label.error {
 }
 .news-block .info {
 	position: relative;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 }
 .news-block .info .i-block {
 	position: relative;
@@ -2855,7 +2860,7 @@ form label.error {
 }
 .news-block .link-box {
 	position: relative;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	padding-top: 20px;
 }
 .news-block .link-box a {
@@ -3104,7 +3109,7 @@ form label.error {
 .project-details .text-col h3 {
 	position: relative;
 	font-size: 36px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	max-width: 380px;
 	margin-bottom: 25px;
 }
@@ -3118,7 +3123,7 @@ form label.error {
 	top: 0;
 	width: 104px;
 	font-size: 26px;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 }
 .project-details .text-col .scope .ttl span {
 	color: #f2f2f2;
@@ -3134,7 +3139,7 @@ form label.error {
 .project-details .text-col .scope ul {
 	position: relative;
 	font-size: 18px;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 20px;
 }
 .project-details .text-col .scope ul li {
@@ -3146,7 +3151,7 @@ form label.error {
 	position: relative;
 	margin-right: -100px;
 	font-size: 24px;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	line-height: 1.45em;
 	z-index: 1;
 }
@@ -3205,7 +3210,7 @@ form label.error {
 .post-controls ul li a {
 	position: relative;
 	display: block;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 24px;
 	line-height: 40px;
 	padding: 30px 10px;
@@ -3254,7 +3259,7 @@ form label.error {
 .blog-details h3 {
 	position: relative;
 	font-size: 30px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 10px;
 }
 .blog-details h4 a {
@@ -3265,7 +3270,7 @@ form label.error {
 }
 .blog-details .info {
 	position: relative;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 10px;
 }
 .blog-details .info .i-block {
@@ -3316,7 +3321,7 @@ form label.error {
 }
 .blog-details .post-tags {
 	position: relative;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 }
 .blog-details .post-tags .ttl {
 	position: relative;
@@ -3326,7 +3331,7 @@ form label.error {
 .blog-details .post-tags a {
 	position: relative;
 	color: #fff;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	text-decoration: underline;
 }
 .sidebar-page-container .post-author {
@@ -3370,12 +3375,12 @@ form label.error {
 .sidebar-page-container .post-author h5 {
 	position: relative;
 	font-size: 20px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 10px;
 }
 .sidebar-page-container .post-author .text {
 	position: relative;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 15px;
 	color: rgba(255, 255, 255, 0.45);
 }
@@ -3386,7 +3391,7 @@ form label.error {
 .post-comments h4 {
 	position: relative;
 	font-size: 24px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 22px;
 }
 .post-comments .comment {
@@ -3449,7 +3454,7 @@ form label.error {
 	position: relative;
 	font-size: 14px;
 	line-height: 20px;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 5px;
 	opacity: 0;
 	visibility: hidden;
@@ -3469,7 +3474,7 @@ form label.error {
 }
 .post-comments .comment .text {
 	position: relative;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 15px;
 	color: rgba(255, 255, 255, 0.45);
 	transition: all 0.5s ease;
@@ -3488,7 +3493,7 @@ form label.error {
 .post-comments .comment .link a {
 	position: relative;
 	display: inline-block;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 14px;
 	padding: 4px 14px;
 	color: #fff;
@@ -3507,7 +3512,7 @@ form label.error {
 .add-comment h4 {
 	position: relative;
 	font-size: 24px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 22px;
 }
 .add-comment form .row .form-group {
@@ -3538,7 +3543,7 @@ form label.error {
 .sidebar-side .sidebar-title h5 {
 	position: relative;
 	font-size: 18px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 0;
 	overflow: hidden;
@@ -3593,7 +3598,7 @@ form label.error {
 }
 .sidebar-side .recent-post .post .date span {
 	position: relative;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #292c30;
@@ -3604,7 +3609,7 @@ form label.error {
 }
 .sidebar-side .recent-post .post .text {
 	position: relative;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	transition: all 0.5s ease;
@@ -3643,7 +3648,7 @@ form label.error {
 .sidebar-side .categories ul li a {
 	position: relative;
 	display: inline-block;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 15px;
 	line-height: 24px;
 	color: #fff;
@@ -3807,7 +3812,7 @@ form label.error {
 	display: block;
 	font-size: 20px;
 	line-height: 40px;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
@@ -3857,7 +3862,7 @@ form label.error {
 	width: 120px;
 	height: 120px;
 	padding: 30px 20px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 48px;
 	color: #292c30;
@@ -3872,7 +3877,7 @@ form label.error {
 	left: 20px;
 	bottom: 20px;
 	display: block;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 1.5em;
@@ -3999,7 +4004,7 @@ form label.error {
 .portfolio-item-two h5 {
 	position: relative;
 	font-size: 18px;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	margin-bottom: 0;
 }
 .portfolio-item-two h5 a {
@@ -4008,7 +4013,7 @@ form label.error {
 .portfolio-item-two .cat {
 	position: relative;
 	display: block;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 1.5em;
@@ -4147,7 +4152,7 @@ form label.error {
 	left: 0;
 	top: 15%;
 	width: 100%;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 110px;
 	color: rgba(255, 255, 255, 0.15);
@@ -4204,7 +4209,7 @@ form label.error {
 }
 .banner-six .slide-item h3 {
 	position: relative;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 28px;
 	color: #fff;
@@ -4308,7 +4313,7 @@ form label.error {
 	font-size: 17px;
 	line-height: 1.5em;
 	color: #fff;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	border-top: 3px solid rgba(255, 255, 255, 0.3);
 	padding-top: 20px;
 	transition: all 0.5s ease;
@@ -4322,7 +4327,7 @@ form label.error {
 }
 .banner-seven .pager-outer .pager-item .text strong {
 	font-size: 20px;
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 }
 .banner-seven .slider-box {
 	position: relative;
@@ -4411,7 +4416,7 @@ form label.error {
 }
 .banner-seven .slide-item h1 {
 	position: relative;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 60px;
 	color: #fff;
@@ -4422,7 +4427,7 @@ form label.error {
 .banner-seven .slide-item .text {
 	position: relative;
 	display: block;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 17px;
 	line-height: 1.5em;
 	padding-top: 25px;
@@ -4517,7 +4522,7 @@ form label.error {
 .banner-eight .pager-box .pager-item .count {
 	position: relative;
 	display: block;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 17px;
 	line-height: 1em;
@@ -4528,7 +4533,7 @@ form label.error {
 	display: block;
 	font-size: 13px;
 	line-height: 1.5em;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
@@ -4623,7 +4628,7 @@ form label.error {
 }
 .banner-eight .slide-item h1 {
 	position: relative;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 60px;
 	color: #fff;
@@ -4633,7 +4638,7 @@ form label.error {
 }
 .banner-eight .slide-item h4 {
 	position: relative;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 26px;
 	color: #d8f744;
@@ -4642,7 +4647,7 @@ form label.error {
 	margin: 0 0 15px;
 }
 .banner-eight .slide-item h4 strong {
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 }
 .banner-eight .slide-item .links-box {
 	position: relative;
@@ -4833,7 +4838,7 @@ form label.error {
 	position: relative;
 	display: block;
 	background: #101010;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	color: #fff;
 	padding: 40px;
 	border-radius: 20px;
@@ -4845,14 +4850,14 @@ form label.error {
 	margin-bottom: 10px;
 }
 .banner-nine .slide-item .text-content .ttl strong {
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-size: 20px;
 }
 .banner-nine .slide-item .subtitle {
 	position: absolute;
 	left: 0;
 	top: 75px;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 24px;
 	color: #fff;
@@ -4864,7 +4869,7 @@ form label.error {
 	position: absolute;
 	left: 0;
 	top: 130px;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 100px;
 	color: #fff;
@@ -4876,7 +4881,7 @@ form label.error {
 	position: absolute;
 	left: 0;
 	top: 310px;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	color: rgba(255, 255, 255, 0.5);
@@ -5038,7 +5043,7 @@ form label.error {
 }
 .banner-ten .slide-item h1 {
 	position: relative;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 60px;
 	color: #fff;
@@ -5048,7 +5053,7 @@ form label.error {
 }
 .banner-ten .slide-item h4 {
 	position: relative;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 26px;
 	color: #d8f744;
@@ -5057,7 +5062,7 @@ form label.error {
 	margin: 0 0 15px;
 }
 .banner-ten .slide-item h4 strong {
-	font-family: "Telegraf_UltraBold", sans-serif;
+	font-family: "Questrial", sans-serif;
 }
 .banner-ten .slide-item .bottom-content {
 	position: absolute;
@@ -5087,7 +5092,7 @@ form label.error {
 }
 .banner-ten .slide-item .bottom-content .text {
 	position: relative;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	padding-top: 25px;
@@ -5099,7 +5104,7 @@ form label.error {
 	top: 70px;
 	width: 140px;
 	text-align: center;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 50px;
 	color: #d8f744;
@@ -5112,7 +5117,7 @@ form label.error {
 	position: absolute;
 	right: 60px;
 	bottom: 100px;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 30px;
 	color: rgba(255, 255, 255, 0.5);
@@ -5331,7 +5336,7 @@ form label.error {
 	line-height: 110px;
 	height: 110px;
 	text-align: center;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 50px;
 	color: rgba(255, 255, 255, 0.5);
@@ -5341,7 +5346,7 @@ form label.error {
 }
 .banner-eleven .slide-item h1 {
 	position: relative;
-	font-family: "Monument_Extended_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 60px;
 	color: #fff;
@@ -5351,7 +5356,7 @@ form label.error {
 }
 .banner-eleven .slide-item .text {
 	position: relative;
-	font-family: "Telegraf_UltraLight", sans-serif;
+	font-family: "Questrial", sans-serif;
 	font-weight: 400;
 	font-size: 26px;
 	text-transform: none;

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
 .elementor-section-wrap .elementor-section,
 .elementor-column-gap-default
 	> .elementor-column
@@ -103,7 +105,7 @@
 	line-height: 24px;
 	color: #fff;
 	font-weight: 400;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 }
 .widget ul li a:hover,
 .widget ol li a:hover {
@@ -132,7 +134,7 @@
 	-moz-transition: all 0.3s ease;
 	color: #fff;
 	text-align: center;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 }
 .widget .tagcloud a:hover {
 	color: #37393d;
@@ -242,7 +244,7 @@ form .form-group textarea {
 }
 .blog__list .blog-details .lower .link-box {
 	position: relative;
-	font-family: "Telegraf_Regular", sans-serif;
+	font-family: "Questrial", sans-serif;
 	padding-top: 20px;
 	display: block;
 	min-height: 100%;
